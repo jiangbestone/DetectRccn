@@ -28,7 +28,7 @@ def parse_args():
     parser.add_argument('--batch-size', type=int,
                         default=8)
     parser.add_argument('--net', type=str,
-                        default='cfgs/res50.yaml', help='res50.yaml, res101.yaml')
+                        default='lib/data/tools/datanet.yml', help='vgg.yaml, res101.yaml')
     parser.add_argument('--cfgs', type=str,
                         default='cfgs/dataset.yml',
                         help='*dataset.yml')

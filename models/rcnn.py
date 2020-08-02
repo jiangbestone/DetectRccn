@@ -178,7 +178,7 @@ class BasicBlock(nn.Module):
     return out
 
 class Model(nn.Module):
-    def __init__(self, model_cfg='res50.yaml', ch=3, nc=None):
+    def __init__(self, model_cfg='datanet.yaml', ch=3, nc=None):
         super(Model, self).__init__()
         if type(model_cfg) is dict:
             self.md = model_cfg
